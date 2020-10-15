@@ -4,9 +4,9 @@
 int main()
 {
     int i,num,sum=0;
-    for(i=1;i<6;++i){
+    for(i=1;i<10;++i){
         if(num>0){
-            printf("Enter an number: ");
+            printf("Enter a number: ");
             scanf("%d",&num);
             sum = sum + num;
         }   
