@@ -1,7 +1,5 @@
 // Program to calculate the sum of numbers (10 numbers max)
-// If the user enters a negative number, the loop terminates [USING BREAK STATEMENT]
-/* This program stops taking input when the user enters a negative number and adds the last negative
-   number entered by the user */
+// If the user enters a negative number, it's not added to the result
 #include<stdio.h>
 int main()
 {
@@ -10,7 +8,7 @@ int main()
         printf("Enter a number: ");
         scanf("%lf",&num);
         if(num<0.0){
-           break; 
+           continue; 
     }  
     sum = sum + num; 
     }
