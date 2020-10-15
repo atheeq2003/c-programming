@@ -1,6 +1,6 @@
 // Program to calculate the sum of numbers (10 numbers max)
 // If the user enters a negative number, the loop terminates [USING BREAK STATEMENT]
-/* This program stops taking input when the user enters a negative number and adds the last negative
+/* This program stops taking input when the user enters a negative number but does not add the last negative
    number entered by the user */
 #include<stdio.h>
 int main()
