@@ -10,13 +10,29 @@ int main()
     scanf("%d",&num2);
     printf("Enter an operator: ");
     scanf("%c",&operator);
-switch(operator){
+ switch(operator){
     case '+';
     printf("%lf + %lf = %lf",num1,num2,num1+num2);
     break;
 
     case '-';
-    printf("%lf - %lf = %lf",num1,num2,num1+num2);
+    printf("%lf - %lf = %lf",num1,num2,num1-num2);
     break;
+
+    case '*';
+    printf("%lf * %lf = %lf",num1,num2,num1*num2);
+    break;
+
+    case '/';
+    printf("%lf / %lf = %lf",num1,num2,num1/num2);
+    break;
+
+    case '%';
+    printf("%lf % %lf = %lf",num1,num2,num1%num2);
+    break;
+
+    default:
+    printf("Error! operator is not correct");
 }
+return 0;
 )
