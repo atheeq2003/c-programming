@@ -10,11 +10,11 @@ int main()
         printf("Enter a number: ");
         scanf("%lf",&number);
         if(number<0.0){
-            goto jump;
+            goto result;
         }
         sum = sum + number;
     }
-        jump:
+        result:
            average = sum / (i - 1);
            printf("Sum = %.2f\n",sum);
            printf("Average = %.2f", average);
