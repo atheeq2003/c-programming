@@ -16,9 +16,9 @@ int main()
             printf("2nd is greater",b);
         }}else{
             if(b>=c){
-                printf("2nd is greater");
+                printf("2nd is greater",b);
             }else{
-                printf("3rd is greater");
+                printf("3rd is greater",c);
             }
         }
     return 0;
