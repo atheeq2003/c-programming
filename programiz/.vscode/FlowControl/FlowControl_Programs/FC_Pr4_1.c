@@ -11,14 +11,14 @@ int main()
     scanf("%d",&c);
     if(a>=c){
         if(a>=b){
-            printf("1st is greater",a);
+            printf("1st is greater");
         }else{
-            printf("2nd is greater",b);
+            printf("2nd is greater");
         }}else{
             if(b>=c){
-                printf("2nd is greater",b);
+                printf("2nd is greater");
             }else{
-                printf("3rd is greater",c);
+                printf("3rd is greater");
             }
         }
     return 0;

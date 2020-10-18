@@ -10,13 +10,13 @@ int main()
     printf("Enter the 3rd number: ");
     scanf("%d",&c);
     if(a >= b && a >= c){
-        printf("1st is greater",a);
+        printf("1st is greater ");
     }
     if(b >= a && b >= c){
-        printf("2nd is greater",b);
+        printf("2nd is greater ");
     }
     if(c >= a && c >= b){
-        printf("3rd is greater",c);
+        printf("3rd is greater ");
     }
     return 0;
 }
