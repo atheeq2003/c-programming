@@ -7,7 +7,7 @@ int main()
     scanf("%d",&num);
     if(num<=0){
         if(num == 0){
-            printf("You've enterd 0.");
+            printf("You've enterd 0 (NON NEGATIVE NUMBER) ");
         }else{
             printf("It is an negative number.");
         }
