@@ -6,9 +6,10 @@ int main()
     int count = 0;
     printf("Enter the integer: ");
     scanf("%ld",&n);
-    for(n;n!=0;++count){
+    while(n!=0){
         n = n / 10;
+        ++count;
     }
-    printf("Number of Digits: %d ",count);
-    return 0;
+   printf("Number of Digits: %d ",count);
+   return 0;
 }
