@@ -15,5 +15,5 @@ int main()
     }else{
         printf("The number is not Palindrome.");
     }
-    return 0;
+    return 0;                   
 }
