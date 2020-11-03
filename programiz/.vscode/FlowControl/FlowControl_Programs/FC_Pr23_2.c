@@ -1,3 +1,4 @@
+//Half Pyramid of 12345
 #include<stdio.h>
 int main()
 {
