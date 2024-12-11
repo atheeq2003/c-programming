@@ -1,2 +1,2 @@
-# c-programming
-My journey to learn C programming
+# Learning C Programming
+Through Programiz site
